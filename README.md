@@ -40,7 +40,7 @@ We also used a plate that had curved edges around the sides. The dice also rolle
 ![plate](/imgs/10.jpg)
 
 
-### Describe any software you wrote in detail. Illustrate with diagrams, flow charts, and/or other appropriate visuals. This includes launch files, URDFs, etc. 
+### Software
 **Reading the dice**:
 - We started with using concepts of Lab 6 to read dice numbers on still images
 - OpenCV functions to find the dice and count circular blobs
