@@ -53,7 +53,7 @@ We used a sawyer with the default gripper. For rolling the dice we 3D printed a 
 
 ![Gaussian Blurred picture of dice to reduce noise](/imgs/2.jpeg)
 
-2. Then we use [] to identify the clusters
+2. Then we use opencv to identify the clusters
 
 ![Opencv's contour to find the dice](/imgs/3.jpeg)
 	
@@ -62,6 +62,10 @@ We used a sawyer with the default gripper. For rolling the dice we 3D printed a 
 ![Creating boxes around the dice](/imgs/4.jpeg)
 	
 4. After individual dice are identified a snapshot of each dice is taken. Then zoomed in to have more accurate counts of the dice
+
+examples	   	        |  examples			   | examples			   | 				     | 			 |
+:------------------------------:|:--------------------------------:|: ----------------------------:|:-------------------------------:|:-----------------:|
+![Dice counting](/imgs/5.jpeg)  |  ![Dice counting2](/imgs/6.jpg)  | ![Dice counting3](/imgs/7.jpg) | ![Dice counting4](/imgs/8.jpg) | ![Dice counting5](/imgs/9.jpg) |
 
 ![Dice counting](/imgs/5.jpeg) 
 
