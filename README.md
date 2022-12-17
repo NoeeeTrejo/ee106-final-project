@@ -36,7 +36,8 @@ Tradeoffs:
 
 We used a sawyer with the default gripper. For rolling the dice we 3D printed a container. 	![cup we 3d printed](/imgs/cup.jpeg)
 
-We also used a plate that had curved edges around the sides. The dice also rolled less far off when it landed on the plate. ![plate](/imgs/10.jpg)
+We also used a plate that had curved edges around the sides. The dice also rolled less far off when it landed on the plate. 
+![plate](/imgs/10.jpg)
 
 
 ### Describe any software you wrote in detail. Illustrate with diagrams, flow charts, and/or other appropriate visuals. This includes launch files, URDFs, etc. 
