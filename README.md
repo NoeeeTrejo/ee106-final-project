@@ -75,7 +75,7 @@ We also used a plate that had curved edges around the sides. The dice also rolle
 
 The high level overview of our project works like the following. From a fixed starting position, a container with a dice is picked up. The rolling motion is a preset set of instructions. Then the robot moves so that the rolled dice is in frame. It takes a few seconds to read the dice and locate the dice. Then it determines its location and picks up the dice
 
-To pick up the dice, we use a controller. 
+To pick up the dice, we use a proportional controller. 
 
 ### Camera Position Controller
 ![Camera Position Controller Diagram](/imgs/diagram.png)
