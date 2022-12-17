@@ -63,7 +63,11 @@ We used a sawyer with the default gripper. For rolling the dice we 3D printed a 
 	
 4. After individual dice are identified a snapshot of each dice is taken. Then zoomed in to have more accurate counts of the dice
 
-![Dice counting](/imgs/5.jpeg) ![Dice counting2](/imgs/contours_none_image1 (2).jpg) ![Dice counting3](/imgs/contours_none_image1 (3).jpg) ![Dice counting4](/imgs/contours_none_image1 (4).jpg) ![Dice counting5](/imgs/contours_none_image1 (5).jpg)
+![Dice counting](/imgs/5.jpeg) 
+![Dice counting2](/imgs/contour_none_image1 (2).jpg) 
+![Dice counting3](/imgs/contour_none_image1 (3).jpg) 
+![Dice counting4](/imgs/contour_none_image1 (4).jpg) 
+![Dice counting5](/imgs/contour_none_image1 (5).jpg)
 
 ### Picking up the dice:
 
