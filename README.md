@@ -24,10 +24,12 @@ The way we approached the problem was very unique and that that approach can be 
 - **Consistency:** since we plan on making a game, we want to be able to have consistent success so we made checkpoints that happen along the problem to ensure we're on the right path. 
 
 ### What design choices did you make when you formulated your design? What trade-offs did you have to make?
+
 **Path Finding**: We created our own path finding solution, by moving closer and closer to the dice to create a checkpoint where we can then pick up the dice. 
 Tradeoffs: 
-    - TODO: THIS
-    - 
+    - By making our own path finding algorithm we got to learn the knitty gritty of what it takes to move a robot with vision and how difficult tasks involving small objects are 
+    - By having a standardized way to pick things up, we were able to have quicker functions that gave us quick paths rather than suboptimal paths using other pathfinding algorithms that would make us take ridiculous paths to pick up the dice
+    
 **Robot(s)**: We at fist were ambitious and wanted to use multiple robots, but we found it easier to just use a single robot to simulate a full game. Though it adds to the entertainment aspect, but could be a possible project for the future.
 
 ## Implementation
@@ -61,7 +63,11 @@ We used a sawyer with the default gripper. For rolling the dice we 3D printed a 
 	
 4. After individual dice are identified a snapshot of each dice is taken. Then zoomed in to have more accurate counts of the dice
 
-![Dice counting](/imgs/5.jpeg)
+![Dice counting](/imgs/5.jpeg) 
+![Dice counting2](/imgs/contour_none_image1 (2).jpg) 
+![Dice counting3](/imgs/contour_none_image1 (3).jpg) 
+![Dice counting4](/imgs/contour_none_image1 (4).jpg) 
+![Dice counting5](/imgs/contour_none_image1 (5).jpg)
 
 ### Picking up the dice:
 
@@ -162,8 +168,9 @@ Our implementation uses checkpoints which are configurations for the sawyer bot 
 
 
 ### Contributions: 
-- Adan Lopez Calderon: ...
-- Noe Trejo-Cruz: ... 
-- Khanh Pham: ... 
-- Angela Gao: ... 
+- Adan Lopez Calderon: Adan worked on coding the vision part of the project to count the number of dots, he also helped with writing the starting openCV functions with Angela, wrote script for the error adjustment
+- Noe Trejo-Cruz: Worked with Khanh to create the checkpoints, set up a script to run everything, created launch files, mapped out the planning for the project, created scripts for specific instructions, created slides, and wrote the github readme.
+- Khanh Pham: coded the vision part to detect the dice and count the number of dots. He also helped with writing the controller and testing the Sawyer arm with pickup up the dice. 
+- Angela Gao: started the vision part with basic openCV functions that were later modified to be the final project. Also helped with coordinating work times and finishing up writing the website.
+ 
 
