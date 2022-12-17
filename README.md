@@ -96,8 +96,9 @@ while error not within a threshold:
 	image_center = get_img()
 	error = dice_pos - image_center # In (x, y)
 
-	
 ```
+![controller demo](/imgs/adjustment_demo.gif) 
+
 - We got the bot to get the dice into the center of the frame, and record it’s x and y position
 - Look at the error of where the dice is and the center of the image, and that tells us how much to adjust in order to center the dice in the middle
 - We do this via x and y positions relative to the camera, and we maintain a constant height
